@@ -1,2 +1,0 @@
-# pengood.github.io
-blog
