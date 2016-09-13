@@ -317,7 +317,13 @@
 
 
 “键/值”对的集合，在Java中，它被理解为Map；
-值的有序
+值的有序列表，在Java中，它被理解为数组。
+
+
+下面是一个例子：
+1234567&#123;"employees": [	&#123; "firstName":"John" , "lastName":"Doe" &#125;,	&#123; "firstName":"Anna" , "lastName":"Smith" &#125;,	&#123; "firstName":"Peter" , "lastName":"Jones" &#125;	]&#125;
+对象 “employees” 是包含三个对象的数组，每个对象代表一条关于某人姓和名的记录。
+二、Gson1、Gson简单对象序列化与反序列化123456Gson gson=new Gson();Object object=new Object
           ...
 
           <div class="post-more-link text-center">
@@ -416,8 +422,17 @@
       
         
           
-          Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in 
-          ...
+          Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
+Quick StartCreate a new post1$ hexo new "My New Post"
+More info: Writing
+Run server1$ hexo server
+More info: Server
+Generate static files1$ hexo generate
+More info: Generating
+Deploy to remote sites1$ hexo deploy
+More info: Deployment
+
+          
 
           <div class="post-more-link text-center">
             <a class="btn" href="/2016/06/18/hello-world/#more" rel="contents">
