@@ -84,15 +84,40 @@
 
 
 
-<meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Pzhao的博客">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="##一、JSONJSON：JavaScript 对象表示法(JavaScript Object Notation）。JSON 是存储和交换文本信息的语法，类似 XML，JSON 比 XML 更小、更快，更易解析。JSON建构于两种结构：
+
+
+“键/值”对的集合，在Java中，它被理解为Map；
+值的有序列表，在Java中，它被理解为数组。
+
+
+下面是一个例子：
+1234567&amp;#123;&quot;empl">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Gson&FastJson">
+<meta property="og:url" content="http://yoursite.com/2016/09/13/my-new-post/index.html">
 <meta property="og:site_name" content="Pzhao的博客">
-<meta property="og:description">
+<meta property="og:description" content="##一、JSONJSON：JavaScript 对象表示法(JavaScript Object Notation）。JSON 是存储和交换文本信息的语法，类似 XML，JSON 比 XML 更小、更快，更易解析。JSON建构于两种结构：
+
+
+“键/值”对的集合，在Java中，它被理解为Map；
+值的有序列表，在Java中，它被理解为数组。
+
+
+下面是一个例子：
+1234567&amp;#123;&quot;empl">
+<meta property="og:updated_time" content="2016-09-13T12:03:27.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Pzhao的博客">
-<meta name="twitter:description">
+<meta name="twitter:title" content="Gson&FastJson">
+<meta name="twitter:description" content="##一、JSONJSON：JavaScript 对象表示法(JavaScript Object Notation）。JSON 是存储和交换文本信息的语法，类似 XML，JSON 比 XML 更小、更快，更易解析。JSON建构于两种结构：
+
+
+“键/值”对的集合，在Java中，它被理解为Map；
+值的有序列表，在Java中，它被理解为数组。
+
+
+下面是一个例子：
+1234567&amp;#123;&quot;empl">
 
 
 
@@ -113,9 +138,9 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2016/09/13/my-new-post/"/>
 
-  <title> Pzhao的博客 </title>
+  <title> Gson&FastJson | Pzhao的博客 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -136,9 +161,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left 
-   page-home 
- ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -215,9 +238,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
   
@@ -237,10 +260,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/2016/09/13/my-new-post/" itemprop="url">
-                  Gson&FastJson
-                </a>
+                Gson&FastJson
               
             
           </h1>
@@ -311,9 +331,7 @@
       
 
       
-        
-          
-            <p>##一、JSON<br>JSON：JavaScript 对象表示法(JavaScript Object Notation）。<br>JSON 是存储和交换文本信息的语法，类似 XML，JSON 比 XML 更小、更快，更易解析。<br>JSON建构于两种结构：</p>
+        <p>##一、JSON<br>JSON：JavaScript 对象表示法(JavaScript Object Notation）。<br>JSON 是存储和交换文本信息的语法，类似 XML，JSON 比 XML 更小、更快，更易解析。<br>JSON建构于两种结构：</p>
 <blockquote>
 <ul>
 <li>“键/值”对的集合，在Java中，它被理解为Map；</li>
@@ -332,16 +350,20 @@
 <p>##三、Fastjson<br>相关序列化反序列化操作Demo：</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Car</span></span>&#123;</span><br><span class="line">    <span class="keyword">private</span> String name;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">int</span> model;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span>  <span class="keyword">int</span> price;</span><br><span class="line">    <span class="keyword">private</span> String[] colors;</span><br><span class="line"> </span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">Car</span><span class="params">(String name, <span class="keyword">int</span> model, <span class="keyword">int</span> price, String[] colors)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.name = name;</span><br><span class="line">        <span class="keyword">this</span>.model = model;</span><br><span class="line">        <span class="keyword">this</span>.price = price;</span><br><span class="line">        <span class="keyword">this</span>.colors = colors;</span><br><span class="line">    &#125;</span><br><span class="line"> </span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">Car</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    &#125;</span><br><span class="line"> </span><br><span class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">getName</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> name;</span><br><span class="line">    &#125;</span><br><span class="line"> </span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">getModel</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> model;</span><br><span class="line">    &#125;</span><br><span class="line"> </span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">getPrice</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> price;</span><br><span class="line">    &#125;</span><br><span class="line"> </span><br><span class="line">    <span class="keyword">public</span> String[] getColors() &#123;</span><br><span class="line">        <span class="keyword">return</span> colors;</span><br><span class="line">    &#125;</span><br><span class="line"> </span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setName</span><span class="params">(String name)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.name = name;</span><br><span class="line">    &#125;</span><br><span class="line"> </span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setModel</span><span class="params">(<span class="keyword">int</span> model)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.model = model;</span><br><span class="line">    &#125;</span><br><span class="line"> </span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setPrice</span><span class="params">(<span class="keyword">int</span> price)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.price = price;</span><br><span class="line">    &#125;</span><br><span class="line"> </span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setColors</span><span class="params">(String[] colors)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.colors = colors;</span><br><span class="line">    &#125;</span><br><span class="line"> </span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">toString</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="string">"Car&#123;"</span> +</span><br><span class="line">                <span class="string">"name='"</span> + name + <span class="string">'\''</span> +</span><br><span class="line">                <span class="string">", model="</span> + model +</span><br><span class="line">                <span class="string">", price="</span> + price +</span><br><span class="line">                <span class="string">", colors="</span> + Arrays.toString(colors) +</span><br><span class="line">                <span class="string">'&#125;'</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"> </span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">FastjsonTest</span> </span>&#123;</span><br><span class="line"> </span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;</span><br><span class="line">        Car car=<span class="keyword">new</span> Car(<span class="string">"AUDI"</span>,<span class="number">2014</span>,<span class="number">30000</span>,<span class="keyword">new</span> String[]&#123;<span class="string">"GRAY"</span>,<span class="string">"BLACK"</span>,<span class="string">"WHITE"</span>&#125;);</span><br><span class="line">        System.out.print(car+<span class="string">"\n"</span>);</span><br><span class="line">        <span class="comment">//序列化</span></span><br><span class="line">        String carFastjson= JSON.toJSONString(car); <span class="comment">//fastjson会序列化static域</span></span><br><span class="line">        System.out.print(carFastjson+<span class="string">"\n"</span>);</span><br><span class="line">        Gson gson=<span class="keyword">new</span> Gson();</span><br><span class="line">        String carGson= gson.toJson(car); <span class="comment">//Gson不会序列化static域</span></span><br><span class="line">        System.out.print(carGson+<span class="string">"\n"</span>);</span><br><span class="line">        <span class="comment">//反序列化</span></span><br><span class="line">        Car car1=JSON.parseObject(carFastjson,Car.class);</span><br><span class="line">        System.out.print(car1+<span class="string">"\n"</span>);</span><br><span class="line">        Car car2=gson.fromJson(carGson,Car.class);</span><br><span class="line">        System.out.print(car2+<span class="string">"\n"</span>);</span><br><span class="line">        Car car3=<span class="keyword">new</span> Car(<span class="string">"BMW"</span>,<span class="number">2015</span>,<span class="number">35000</span>,<span class="keyword">new</span> String[]&#123;<span class="string">"RED"</span>,<span class="string">"BLACK"</span>,<span class="string">"WHITE"</span>&#125;);</span><br><span class="line">        <span class="comment">//list序列化</span></span><br><span class="line">        List&lt;Car&gt; cars=<span class="keyword">new</span> ArrayList&lt;&gt;();</span><br><span class="line">        cars.add(car);</span><br><span class="line">        cars.add(car3);</span><br><span class="line">        String carArray=JSON.toJSONString(cars);</span><br><span class="line">        System.out.print(carArray+<span class="string">"\n"</span>);</span><br><span class="line"> </span><br><span class="line">        <span class="comment">//反序列化</span></span><br><span class="line">        List&lt;Car&gt; cars1=JSON.parseObject(carArray,<span class="keyword">new</span> TypeReference&lt;List&lt;Car&gt;&gt;()&#123;&#125;);</span><br><span class="line">        System.out.print(cars1+<span class="string">"\n"</span>);</span><br><span class="line"> </span><br><span class="line">        <span class="comment">//json转map</span></span><br><span class="line">        Map&lt;String,Object&gt; map=JSON.parseObject(carFastjson);</span><br><span class="line">        System.out.print(map+<span class="string">"\n"</span>);</span><br><span class="line">        System.out.print(map.get(<span class="string">"colors"</span>)+<span class="string">"\n"</span>);</span><br><span class="line"> </span><br><span class="line">        <span class="comment">//过滤字段</span></span><br><span class="line">        SimplePropertyPreFilter filter=<span class="keyword">new</span> SimplePropertyPreFilter(Car.class,<span class="string">"price"</span>,<span class="string">"colors"</span>);</span><br><span class="line">        String firlterCar=JSON.toJSONString(car,filter);</span><br><span class="line">        System.out.print(firlterCar+<span class="string">"\n"</span>);</span><br><span class="line"> </span><br><span class="line">        <span class="comment">//序列化日期</span></span><br><span class="line">        Date date=<span class="keyword">new</span> Date();</span><br><span class="line">        System.out.print(date+<span class="string">"\n"</span>);</span><br><span class="line">        String dateString=JSON.toJSONStringWithDateFormat(date,<span class="string">"yyyy-MM-dd HH:mm:ss"</span>);</span><br><span class="line">        System.out.print(dateString+<span class="string">"\n"</span>);</span><br><span class="line">        String dateString1=JSON.toJSONStringWithDateFormat(date,<span class="string">"yyyy年MM月dd日 HH时mm分ss秒"</span>);</span><br><span class="line">        System.out.print(dateString1+<span class="string">"\n"</span>);</span><br><span class="line">    &#125;</span><br><span class="line"> </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-          
+      
+    </div>
+
+    <div>
+      
         
+
       
     </div>
 
     <div>
       
-    </div>
+        
 
-    <div>
       
     </div>
 
@@ -349,121 +371,32 @@
       
 
       
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
+              <a href="/2016/06/18/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
+              </a>
             
-              
-                
-                <a class="post-title-link" href="/2016/06/18/hello-world/" itemprop="url">
-                  Hello World
-                </a>
-              
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
             
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-06-18T21:12:52+08:00" content="2016-06-18">
-              2016-06-18
-            </time>
-          </span>
-
-          
-
-          
-            
-          
-
-          
-
-          
-          
-
-          
+          </div>
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -471,6 +404,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -490,8 +427,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/author.jpg"
@@ -534,6 +480,17 @@
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <p class="post-toc-empty">此文章未包含目录</p>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -630,6 +587,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
 
   
 
