@@ -312,20 +312,16 @@
 
       
         
-          
-          一、JSONJSON：JavaScript 对象表示法(JavaScript Object Notation）。JSON 是存储和交换文本信息的语法，类似 XML，JSON 比 XML 更小、更快，更易解析。JSON建构于两种结构：
-
-
-“键/值”对的集合，在Java中，它被理解为Map；
-值的有序列表，在Java中，它被理解为数组。
-
-
-下面是一个例子：
-1234567&#123;"employees": [	&#123; "firstName":"John" , "lastName":"Doe" &#125;,	&#123; "firstName":"Anna" , "lastName":"Smith" &#125;,	&#123; "firstName":"Peter" , "lastName":"Jones" &#125;	]&#125;
-对象 “employees” 是包含三个对象的数组，每个对象代表一条关于某人姓和名的记录。
-二、Gson1、Gson简单对象序列化与反序列化123456Gson gson=new Gson();Object object=new Object
-          ...
-
+          <h2 id="一、JSON"><a href="#一、JSON" class="headerlink" title="一、JSON"></a>一、JSON</h2><p>JSON：JavaScript 对象表示法(JavaScript Object Notation）。<br>JSON 是存储和交换文本信息的语法，类似 XML，JSON 比 XML 更小、更快，更易解析。<br>JSON建构于两种结构：</p>
+<blockquote>
+<ul>
+<li>“键/值”对的集合，在Java中，它被理解为Map；</li>
+<li>值的有序列表，在Java中，它被理解为数组。</li>
+</ul>
+</blockquote>
+<p>下面是一个例子：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line"><span class="string">"employees"</span>: [</span><br><span class="line">	&#123; <span class="string">"firstName"</span>:<span class="string">"John"</span> , <span class="string">"lastName"</span>:<span class="string">"Doe"</span> &#125;,</span><br><span class="line">	&#123; <span class="string">"firstName"</span>:<span class="string">"Anna"</span> , <span class="string">"lastName"</span>:<span class="string">"Smith"</span> &#125;,</span><br><span class="line">	&#123; <span class="string">"firstName"</span>:<span class="string">"Peter"</span> , <span class="string">"lastName"</span>:<span class="string">"Jones"</span> &#125;</span><br><span class="line">	]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>对象 “employees” 是包含三个对象的数组，每个对象代表一条关于某人姓和名的记录。</p>
           <div class="post-more-link text-center">
             <a class="btn" href="/2016/09/13/my-new-post/#more" rel="contents">
               阅读全文 &raquo;
